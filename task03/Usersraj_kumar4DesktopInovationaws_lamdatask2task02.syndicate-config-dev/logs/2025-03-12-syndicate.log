@@ -1,0 +1,108 @@
+2025-03-12 15:18:23,580 [INFO] USER:raj_kumar4 s3_resource.py:40:validate_bucket_name LOG: Starting validating bucket name 'syndicate-education-platform-custom-sandbox-artifacts-6675'
+2025-03-12 15:18:23,581 [INFO] USER:raj_kumar4 s3_resource.py:73:validate_bucket_name LOG: Finished validating bucket name 'syndicate-education-platform-custom-sandbox-artifacts-6675'
+2025-03-12 15:18:23,581 [INFO] USER:raj_kumar4 helper.py:525:convert LOG: Stripping run_id:JAP-11,run_type:stm,type:user,user_id:3dd83dcd from "," a bit..
+2025-03-12 15:18:23,581 [INFO] USER:raj_kumar4 helper.py:529:convert LOG: Converting: run_id:JAP-11,run_type:stm,type:user,user_id:3dd83dcd to dict..
+2025-03-12 15:18:23,583 [INFO] USER:raj_kumar4 helper.py:541:convert LOG: Converted to such a dict: {'run_id': 'JAP-11', 'run_type': 'stm', 'type': 'user', 'user_id': '3dd83dcd'}
+2025-03-12 15:18:25,140 [WARNING] USER:raj_kumar4 generator.py:76:generate_configuration_files LOG: The config_path property is not specified. The working directory is used
+2025-03-12 15:18:25,141 [WARNING] USER:raj_kumar4 generator.py:93:generate_configuration_files LOG: The "project_path" property is not specified. The working directory will be used as a project path. To change the path, edit the syndicate.yml by path C:\Users\raj_kumar4\Desktop\Inovation\aws_lamdatask2\task03\.syndicate-config-dev
+2025-03-12 15:18:25,144 [INFO] USER:raj_kumar4 generator.py:155:generate_configuration_files LOG: Syndicate initialization has been completed. 
+Set SDCT_CONF:
+Unix: export SDCT_CONF="C:\Users\raj_kumar4\Desktop\Inovation\aws_lamdatask2\task03\.syndicate-config-dev"
+Windows: setx SDCT_CONF C:\Users\raj_kumar4\Desktop\Inovation\aws_lamdatask2\task03\.syndicate-config-dev
+2025-03-12 15:18:25,145 [INFO] USER:raj_kumar4 helper.py:330:timed LOG: Stage config, elapsed time: 0:00:01.562338
+2025-03-12 15:20:52,503 [INFO] USER:raj_kumar4 handlers.py:106:syndicate LOG: Configuration used: C:Usersraj_kumar4DesktopInovationaws_lamdatask2task02.syndicate-config-dev
+2025-03-12 15:20:52,504 [ERROR] USER:raj_kumar4 decorators.py:136:wrapper LOG: sdct.conf does not exist inside C:Usersraj_kumar4DesktopInovationaws_lamdatask2task02.syndicate-config-dev folder
+2025-03-12 15:20:52,509 [ERROR] USER:raj_kumar4 decorators.py:137:wrapper LOG: Traceback (most recent call last):
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\decorators.py", line 134, in wrapper
+    return_code = func(*args, **kwargs)
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\handlers.py", line 107, in syndicate
+    initialize_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\__init__.py", line 106, in initialize_connection
+    CONFIG = ConfigHolder(CONF_PATH)
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\conf\processor.py", line 63, in __init__
+    self._init_conf_config(dir_path=dir_path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\conf\processor.py", line 92, in _init_conf_config
+    raise AssertionError(
+        'sdct.conf does not exist inside %s folder' % dir_path)
+AssertionError: sdct.conf does not exist inside C:Usersraj_kumar4DesktopInovationaws_lamdatask2task02.syndicate-config-dev folder
+Traceback (most recent call last):
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\decorators.py", line 134, in wrapper
+    return_code = func(*args, **kwargs)
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\handlers.py", line 107, in syndicate
+    initialize_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\__init__.py", line 106, in initialize_connection
+    CONFIG = ConfigHolder(CONF_PATH)
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\conf\processor.py", line 63, in __init__
+    self._init_conf_config(dir_path=dir_path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\conf\processor.py", line 92, in _init_conf_config
+    raise AssertionError(
+        'sdct.conf does not exist inside %s folder' % dir_path)
+AssertionError: sdct.conf does not exist inside C:Usersraj_kumar4DesktopInovationaws_lamdatask2task02.syndicate-config-dev folder
+2025-03-12 15:21:02,111 [INFO] USER:raj_kumar4 handlers.py:106:syndicate LOG: Configuration used: C:Usersraj_kumar4DesktopInovationaws_lamdatask2task02.syndicate-config-dev
+2025-03-12 15:21:02,111 [ERROR] USER:raj_kumar4 decorators.py:136:wrapper LOG: sdct.conf does not exist inside C:Usersraj_kumar4DesktopInovationaws_lamdatask2task02.syndicate-config-dev folder
+2025-03-12 15:21:02,114 [ERROR] USER:raj_kumar4 decorators.py:137:wrapper LOG: Traceback (most recent call last):
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\decorators.py", line 134, in wrapper
+    return_code = func(*args, **kwargs)
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\handlers.py", line 107, in syndicate
+    initialize_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\__init__.py", line 106, in initialize_connection
+    CONFIG = ConfigHolder(CONF_PATH)
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\conf\processor.py", line 63, in __init__
+    self._init_conf_config(dir_path=dir_path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\conf\processor.py", line 92, in _init_conf_config
+    raise AssertionError(
+        'sdct.conf does not exist inside %s folder' % dir_path)
+AssertionError: sdct.conf does not exist inside C:Usersraj_kumar4DesktopInovationaws_lamdatask2task02.syndicate-config-dev folder
+Traceback (most recent call last):
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\decorators.py", line 134, in wrapper
+    return_code = func(*args, **kwargs)
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\handlers.py", line 107, in syndicate
+    initialize_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\__init__.py", line 106, in initialize_connection
+    CONFIG = ConfigHolder(CONF_PATH)
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\conf\processor.py", line 63, in __init__
+    self._init_conf_config(dir_path=dir_path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\conf\processor.py", line 92, in _init_conf_config
+    raise AssertionError(
+        'sdct.conf does not exist inside %s folder' % dir_path)
+AssertionError: sdct.conf does not exist inside C:Usersraj_kumar4DesktopInovationaws_lamdatask2task02.syndicate-config-dev folder
+2025-03-12 15:21:26,956 [INFO] USER:raj_kumar4 handlers.py:106:syndicate LOG: Configuration used: C:Usersraj_kumar4DesktopInovationaws_lamdatask2task02.syndicate-config-dev
+2025-03-12 15:21:26,956 [ERROR] USER:raj_kumar4 decorators.py:136:wrapper LOG: sdct.conf does not exist inside C:Usersraj_kumar4DesktopInovationaws_lamdatask2task02.syndicate-config-dev folder
+2025-03-12 15:21:26,959 [ERROR] USER:raj_kumar4 decorators.py:137:wrapper LOG: Traceback (most recent call last):
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\decorators.py", line 134, in wrapper
+    return_code = func(*args, **kwargs)
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\handlers.py", line 107, in syndicate
+    initialize_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\__init__.py", line 106, in initialize_connection
+    CONFIG = ConfigHolder(CONF_PATH)
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\conf\processor.py", line 63, in __init__
+    self._init_conf_config(dir_path=dir_path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\conf\processor.py", line 92, in _init_conf_config
+    raise AssertionError(
+        'sdct.conf does not exist inside %s folder' % dir_path)
+AssertionError: sdct.conf does not exist inside C:Usersraj_kumar4DesktopInovationaws_lamdatask2task02.syndicate-config-dev folder
+Traceback (most recent call last):
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\decorators.py", line 134, in wrapper
+    return_code = func(*args, **kwargs)
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\handlers.py", line 107, in syndicate
+    initialize_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\__init__.py", line 106, in initialize_connection
+    CONFIG = ConfigHolder(CONF_PATH)
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\conf\processor.py", line 63, in __init__
+    self._init_conf_config(dir_path=dir_path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raj_kumar4\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\conf\processor.py", line 92, in _init_conf_config
+    raise AssertionError(
+        'sdct.conf does not exist inside %s folder' % dir_path)
+AssertionError: sdct.conf does not exist inside C:Usersraj_kumar4DesktopInovationaws_lamdatask2task02.syndicate-config-dev folder
